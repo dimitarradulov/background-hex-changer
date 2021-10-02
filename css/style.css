@@ -19,7 +19,7 @@ body {
 .header,
 .btn {
   text-transform: uppercase;
-  color: #414143;
+  /* color: #414143; */
 }
 
 .main {
