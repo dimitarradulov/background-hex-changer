@@ -15,8 +15,22 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
-.header {
-  font-size: 5rem;
+.header,
+.btn {
   text-transform: uppercase;
   color: #414143;
+}
+
+.header {
+  font-size: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  border: none;
+  border-radius: 3px;
+  background-color: #ecbd0c;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
 }
