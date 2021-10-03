@@ -7,7 +7,24 @@ const hexValue = document.querySelector('.hex');
 
 let hexCode = 'ffffff';
 
-const hexadecimals = [3, 'b', 'd', 5, 1, 6, 'e', 9, 'a', 'c', 4, 7, 'f', 2, 8];
+const hexadecimals = [
+  3,
+  'b',
+  'd',
+  5,
+  1,
+  6,
+  'e',
+  9,
+  'a',
+  0,
+  'c',
+  4,
+  7,
+  'f',
+  2,
+  8,
+];
 
 const randomIntFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
